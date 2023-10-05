@@ -1,0 +1,500 @@
+{
+  "total_results": 10904,
+  "kind": "search#companies",
+  "page_number": 1,
+  "start_index": 0,
+  "items": [
+    {
+      "kind": "searchresults#company",
+      "matches": {
+        "snippet": [],
+        "title": [ 1, 2, 4, 9 ]
+      },
+      "title": "JW BRANDS LIMITED",
+      "company_status": "active",
+      "links": { "self": "/company/12542618" },
+      "address": {
+        "postal_code": "PO6 3EN",
+        "country": "United Kingdom",
+        "address_line_1": "Building 1000 Lakeside North Harbour",
+        "region": "Portsmouth",
+        "premises": "C/O Smooth Accounting Limited",
+        "locality": "Western Road"
+      },
+      "snippet": "",
+      "address_snippet": "C/O Smooth Accounting Limited, Building 1000 Lakeside North Harbour, Western Road, Portsmouth, United Kingdom, PO6 3EN",
+      "description": "12542618 - Incorporated on  1 April 2020",
+      "company_type": "ltd",
+      "company_number": "12542618",
+      "date_of_creation": "2020-04-01",
+      "description_identifier": [ "incorporated-on" ]
+    },
+    {
+      "date_of_cessation": "2019-08-27",
+      "title": "JW BRANDS LIMITED",
+      "company_status": "dissolved",
+      "links": { "self": "/company/10760847" },
+      "kind": "searchresults#company",
+      "matches": {
+        "title": [ 1, 2, 4, 9 ],
+        "snippet": []
+      },
+      "address_snippet": "31  Rimini Road, Andover, United Kingdom, SP11 6WN",
+      "address": {
+        "country": "United Kingdom",
+        "address_line_1": "Rimini Road",
+        "premises": "31 ",
+        "locality": "Andover",
+        "postal_code": "SP11 6WN"
+      },
+      "snippet": "",
+      "company_type": "ltd",
+      "description": "10760847 - Dissolved on 27 August 2019",
+      "company_number": "10760847",
+      "description_identifier": [ "dissolved-on" ],
+      "date_of_creation": "2017-05-09"
+    },
+    {
+      "address": {
+        "postal_code": "N9 8UF",
+        "address_line_1": "Bunting Close",
+        "premises": "40 ",
+        "locality": "London"
+      },
+      "address_snippet": "40  Bunting Close, London, N9 8UF",
+      "snippet": "",
+      "description_identifier": [ "dissolved-on" ],
+      "date_of_creation": "2014-05-28",
+      "company_type": "ltd",
+      "description": "09059618 - Dissolved on  1 November 2016",
+      "company_number": "09059618",
+      "kind": "searchresults#company",
+      "matches": {
+        "title": [ 1, 2, 4, 9 ],
+        "snippet": []
+      },
+      "company_status": "dissolved",
+      "title": "JW BRANDS RAILTRACK PROJECTS LTD",
+      "date_of_cessation": "2016-11-01",
+      "links": { "self": "/company/09059618" }
+    },
+    {
+      "matches": {
+        "snippet": [],
+        "title": [ 1, 3, 5, 10 ]
+      },
+      "kind": "searchresults#company",
+      "links": { "self": "/company/13968322" },
+      "company_status": "active",
+      "title": "JWM BRANDS LTD",
+      "description_identifier": [ "incorporated-on" ],
+      "date_of_creation": "2022-03-10",
+      "description": "13968322 - Incorporated on 10 March 2022",
+      "company_type": "ltd",
+      "company_number": "13968322",
+      "address_snippet": "150 Douglas Road, Surbiton, England, KT6 7SE",
+      "address": {
+        "locality": "Surbiton",
+        "premises": "150",
+        "address_line_1": "Douglas Road",
+        "country": "England",
+        "postal_code": "KT6 7SE"
+      },
+      "snippet": ""
+    },
+    {
+      "description_identifier": [ "dissolved-on" ],
+      "date_of_creation": "2020-12-17",
+      "company_number": "13086937",
+      "description": "13086937 - Dissolved on 24 January 2023",
+      "company_type": "ltd",
+      "snippet": "",
+      "address_snippet": "Hampton House, High Street, East Grinstead, West Sussex, United Kingdom, RH19 3AW",
+      "address": {
+        "locality": "East Grinstead",
+        "premises": "Hampton House",
+        "region": "West Sussex",
+        "address_line_1": "High Street",
+        "country": "United Kingdom",
+        "postal_code": "RH19 3AW"
+      },
+      "matches": {
+        "title": [ 1, 3, 5, 10 ],
+        "snippet": []
+      },
+      "kind": "searchresults#company",
+      "links": { "self": "/company/13086937" },
+      "title": "JWT BRANDS LIMITED",
+      "company_status": "dissolved",
+      "date_of_cessation": "2023-01-24"
+    },
+    {
+      "description_identifier": [ "dissolved-on" ],
+      "date_of_creation": "2020-12-15",
+      "company_number": "13082221",
+      "description": "13082221 - Dissolved on 31 January 2023",
+      "company_type": "ltd",
+      "address": {
+        "postal_code": "RH19 3AW",
+        "premises": "Hampton House",
+        "locality": "East Grinstead",
+        "country": "United Kingdom",
+        "address_line_1": "High Street",
+        "region": "West Sussex"
+      },
+      "address_snippet": "Hampton House, High Street, East Grinstead, West Sussex, United Kingdom, RH19 3AW",
+      "snippet": "JWT BRANDS ",
+      "links": { "self": "/company/13082221" },
+      "title": "13082221 LTD.",
+      "company_status": "dissolved",
+      "date_of_cessation": "2023-01-31",
+      "matches": { "snippet": [ 1, 3, 5, 10 ] },
+      "kind": "searchresults#company"
+    },
+    {
+      "address": {
+        "postal_code": "W1U 2NT",
+        "country": "United Kingdom",
+        "locality": "London",
+        "premises": "First Floor 47-57 Marylebone Lane"
+      },
+      "snippet": "",
+      "address_snippet": "First Floor 47-57 Marylebone Lane London, United Kingdom, W1U 2NT",
+      "date_of_creation": "2010-06-08",
+      "description_identifier": [ "dissolved-on" ],
+      "company_type": "ltd",
+      "description": "07277792 - Dissolved on 26 February 2013",
+      "company_number": "07277792",
+      "kind": "searchresults#company",
+      "matches": {
+        "title": [ 1, 2, 11, 16 ],
+        "snippet": []
+      },
+      "title": "JW AND GP BRANDS LIMITED",
+      "company_status": "dissolved",
+      "date_of_cessation": "2013-02-26",
+      "links": { "self": "/company/07277792" }
+    },
+    {
+      "links": { "self": "/company/OE014913" },
+      "title": "SIMPLY BRANDS (ASIA) LTD",
+      "company_status": "registered",
+      "matches": {
+        "snippet": [],
+        "title": [ 8, 13 ]
+      },
+      "kind": "searchresults#company",
+      "external_registration_number": "1995963",
+      "company_number": "OE014913",
+      "description": "OE014913 - Registered on 19 January 2023",
+      "company_type": "registered-overseas-entity",
+      "description_identifier": [ null, "registered" ],
+      "date_of_creation": "2023-01-19",
+      "address": {
+        "postal_code": "WC1N 3AX",
+        "country": "Hong Kong",
+        "address_line_1": "05, 16th Floor, The Broadway  No. 54-62 Lockhart Road",
+        "premises": "Unit 04-",
+        "locality": "Wanchai"
+      },
+      "snippet": "",
+      "address_snippet": "Unit 04-05, 16th Floor, The Broadway  No. 54-62 Lockhart Road, Wanchai, Hong Kong, WC1N 3AX"
+    },
+    {
+      "kind": "searchresults#company",
+      "matches": {
+        "snippet": [],
+        "title": [ 5, 10 ]
+      },
+      "company_status": "registered",
+      "title": "THE BRANDS HOUSE LIMITED",
+      "links": { "self": "/company/OE018603" },
+      "address": {
+        "locality": "Road Town",
+        "premises": "Trident Chambers",
+        "region": "Tortola",
+        "address_line_1": "PO BOX 146",
+        "country": "Virgin Islands, British"
+      },
+      "snippet": "",
+      "address_snippet": "Trident Chambers, PO BOX 146, Road Town, Tortola, Virgin Islands, British",
+      "description_identifier": [ null, "registered" ],
+      "date_of_creation": "2023-01-27",
+      "company_number": "OE018603",
+      "description": "OE018603 - Registered on 27 January 2023",
+      "company_type": "registered-overseas-entity",
+      "external_registration_number": "1774432"
+    },
+    {
+      "external_registration_number": "1505163",
+      "snippet": "",
+      "address_snippet": "Vistra Corporate Service Centre, Wickhams Cay Ii, Road Town, Tortola, Virgin Islands, British, VG1110",
+      "address": {
+        "postal_code": "VG1110",
+        "premises": "Vistra Corporate Service Centre",
+        "locality": "Road Town",
+        "country": "Virgin Islands, British",
+        "address_line_1": "Wickhams Cay Ii",
+        "region": "Tortola"
+      },
+      "date_of_creation": "2022-12-22",
+      "description_identifier": [ null, "registered" ],
+      "description": "OE009544 - Registered on 22 December 2022",
+      "company_number": "OE009544",
+      "company_type": "registered-overseas-entity",
+      "title": "MODA INTERNATIONAL BRANDS LIMITED",
+      "company_status": "registered",
+      "links": { "self": "/company/OE009544" },
+      "kind": "searchresults#company",
+      "matches": {
+        "snippet": [],
+        "title": [ 20, 25 ]
+      }
+    },
+    {
+      "kind": "searchresults#company",
+      "matches": {
+        "snippet": [],
+        "title": [ 5, 10 ]
+      },
+      "company_status": "registered",
+      "title": "MER BRANDS HATCH B.V.",
+      "links": { "self": "/company/OE012715" },
+      "address_snippet": "123 H.J.E. Wenckebachweg, Amsterdam, Netherlands, 1096AM",
+      "address": {
+        "locality": "Amsterdam",
+        "premises": "123",
+        "address_line_1": "H.J.E. Wenckebachweg",
+        "country": "Netherlands",
+        "postal_code": "1096AM"
+      },
+      "snippet": "",
+      "description": "OE012715 - Registered on 12 January 2023",
+      "company_number": "OE012715",
+      "company_type": "registered-overseas-entity",
+      "date_of_creation": "2023-01-12",
+      "description_identifier": [ null, "registered" ],
+      "external_registration_number": "65191382"
+    },
+    {
+      "snippet": "",
+      "address": {
+        "postal_code": "NW6 2EG",
+        "locality": "London",
+        "premises": "Care Of Goldwins Ltd",
+        "address_line_1": "75 Maygrove Road",
+        "country": "England"
+      },
+      "address_snippet": "Care Of Goldwins Ltd, 75 Maygrove Road, London, England, NW6 2EG",
+      "description_identifier": [ "incorporated-on" ],
+      "date_of_creation": "2013-12-27",
+      "description": "08826530 - Incorporated on 27 December 2013",
+      "company_number": "08826530",
+      "company_type": "ltd",
+      "kind": "searchresults#company",
+      "matches": {
+        "snippet": [],
+        "title": [ 12, 17 ]
+      },
+      "company_status": "active",
+      "title": "AA LEADING BRANDS LIMITED",
+      "links": { "self": "/company/08826530" }
+    },
+    {
+      "snippet": "",
+      "address": {
+        "postal_code": "OL16 1UU",
+        "premises": "10",
+        "locality": "Rochdale",
+        "country": "United Kingdom",
+        "address_line_1": "Healey Street"
+      },
+      "address_snippet": "10 Healey Street, Rochdale, United Kingdom, OL16 1UU",
+      "description_identifier": [ "incorporated-on" ],
+      "date_of_creation": "2022-08-16",
+      "company_number": "14300289",
+      "description": "14300289 - Incorporated on 16 August 2022",
+      "company_type": "ltd",
+      "kind": "searchresults#company",
+      "matches": {
+        "title": [ 5, 10 ],
+        "snippet": []
+      },
+      "title": "A&A BRANDS LIMITED",
+      "company_status": "active",
+      "links": { "self": "/company/14300289" }
+    },
+    {
+      "date_of_creation": "2019-01-11",
+      "description_identifier": [ "incorporated-on" ],
+      "company_number": "11761567",
+      "description": "11761567 - Incorporated on 11 January 2019",
+      "company_type": "ltd",
+      "address_snippet": "70 Villa Road, Birmingham, West Midlands, England, B19 1BL",
+      "address": {
+        "country": "England",
+        "address_line_1": "Villa Road",
+        "region": "West Midlands",
+        "premises": "70",
+        "locality": "Birmingham",
+        "postal_code": "B19 1BL"
+      },
+      "snippet": "",
+      "matches": {
+        "title": [ 5, 10 ],
+        "snippet": []
+      },
+      "kind": "searchresults#company",
+      "links": { "self": "/company/11761567" },
+      "company_status": "active",
+      "title": "A&J BRANDS LTD"
+    },
+    {
+      "company_status": "active",
+      "title": "A & Q BRANDS LIMITED",
+      "links": { "self": "/company/13749400" },
+      "kind": "searchresults#company",
+      "matches": {
+        "snippet": [],
+        "title": [ 7, 12 ]
+      },
+      "snippet": "",
+      "address": {
+        "locality": "Solihull",
+        "premises": "20",
+        "address_line_1": "Coverdale Road",
+        "country": "England",
+        "postal_code": "B92 7NU"
+      },
+      "address_snippet": "20 Coverdale Road, Solihull, England, B92 7NU",
+      "company_type": "ltd",
+      "description": "13749400 - Incorporated on 17 November 2021",
+      "company_number": "13749400",
+      "date_of_creation": "2021-11-17",
+      "description_identifier": [ "incorporated-on" ]
+    },
+    {
+      "title": "AAXLL BRANDS COMPANY LIMITED",
+      "company_status": "active",
+      "links": { "self": "/company/12014719" },
+      "kind": "searchresults#company",
+      "matches": {
+        "snippet": [],
+        "title": [ 7, 12 ]
+      },
+      "address": {
+        "premises": "Aaxll Brands Company Nottingham Road",
+        "locality": "Leicestershire",
+        "country": "England",
+        "region": "United Kingdom",
+        "address_line_1": "Melton Mowbray",
+        "postal_code": "LE13 0PB"
+      },
+      "snippet": "",
+      "address_snippet": "Aaxll Brands Company Nottingham Road, Melton Mowbray, Leicestershire, United Kingdom, England, LE13 0PB",
+      "company_number": "12014719",
+      "description": "12014719 - Incorporated on 23 May 2019",
+      "company_type": "ltd",
+      "description_identifier": [ "incorporated-on" ],
+      "date_of_creation": "2019-05-23"
+    },
+    {
+      "address": {
+        "address_line_1": "Byron Avenue",
+        "country": "England",
+        "locality": "Camberley",
+        "premises": "12",
+        "postal_code": "GU15 1DP"
+      },
+      "address_snippet": "12 Byron Avenue, Camberley, England, GU15 1DP",
+      "snippet": "",
+      "company_type": "ltd",
+      "description": "13167421 - Incorporated on 29 January 2021",
+      "company_number": "13167421",
+      "date_of_creation": "2021-01-29",
+      "description_identifier": [ "incorporated-on" ],
+      "kind": "searchresults#company",
+      "matches": {
+        "snippet": [],
+        "title": [ 5, 10 ]
+      },
+      "company_status": "active",
+      "title": "ABA BRANDS LTD",
+      "links": { "self": "/company/13167421" }
+    },
+    {
+      "address_snippet": "49 Clarence Road, Windsor, England, SL4 5AX",
+      "address": {
+        "postal_code": "SL4 5AX",
+        "locality": "Windsor",
+        "premises": "49",
+        "address_line_1": "Clarence Road",
+        "country": "England"
+      },
+      "snippet": "",
+      "description": "13573520 - Incorporated on 18 August 2021",
+      "company_number": "13573520",
+      "company_type": "ltd",
+      "description_identifier": [ "incorporated-on" ],
+      "date_of_creation": "2021-08-18",
+      "company_status": "active",
+      "title": "ABACUS BRANDS LIMITED",
+      "links": { "self": "/company/13573520" },
+      "kind": "searchresults#company",
+      "matches": {
+        "snippet": [],
+        "title": [ 8, 13 ]
+      }
+    },
+    {
+      "snippet": "",
+      "address": {
+        "country": "England",
+        "address_line_1": "Welbeck Street",
+        "premises": "51",
+        "locality": "London",
+        "postal_code": "W1G 9HL"
+      },
+      "address_snippet": "51 Welbeck Street, London, England, W1G 9HL",
+      "date_of_creation": "2014-05-06",
+      "description_identifier": [ "incorporated-on" ],
+      "description": "09026312 - Incorporated on  6 May 2014",
+      "company_type": "ltd",
+      "company_number": "09026312",
+      "company_status": "active",
+      "title": "ABBEY BRANDS LIMITED",
+      "links": { "self": "/company/09026312" },
+      "kind": "searchresults#company",
+      "matches": {
+        "snippet": [],
+        "title": [ 7, 12 ]
+      }
+    },
+    {
+      "snippet": "",
+      "address_snippet": "97 Blindsill Road, Farnworth, Bolton, England, BL4 9FP",
+      "address": {
+        "country": "England",
+        "address_line_1": "Blindsill Road",
+        "premises": "97",
+        "locality": "Bolton",
+        "address_line_2": "Farnworth",
+        "postal_code": "BL4 9FP"
+      },
+      "description_identifier": [ "incorporated-on" ],
+      "date_of_creation": "2023-05-23",
+      "company_type": "ltd",
+      "description": "14889539 - Incorporated on 23 May 2023",
+      "company_number": "14889539",
+      "title": "AB BRANDS4EVER LTD",
+      "company_status": "active",
+      "links": { "self": "/company/14889539" },
+      "kind": "searchresults#company",
+      "matches": {
+        "title": [ 4, 14 ],
+        "snippet": []
+      }
+    }
+  ],
+  "items_per_page": 20
+}
