@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace CreativeMinds.ComapniesHouseData.RestApi.AppSettings {
+namespace CreativeMinds.CompaniesHouseData.RestApi.AppSettings {
 
 	public interface ICompaniesHouseSettings {
 		String ApiKey { get; }

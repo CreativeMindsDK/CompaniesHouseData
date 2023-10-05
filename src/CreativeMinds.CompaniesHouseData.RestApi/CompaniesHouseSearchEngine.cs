@@ -1,4 +1,4 @@
-﻿using CreativeMinds.ComapniesHouseData.RestApi.Dtos;
+﻿using CreativeMinds.CompaniesHouseData.RestApi.Dtos;
 using System;
 using System.Net.Http.Headers;
 using System.Net.Http;
@@ -8,7 +8,7 @@ using System.Web;
 using System.Net.Http.Json;
 using Microsoft.Extensions.Configuration;
 
-namespace CreativeMinds.ComapniesHouseData.RestApi {
+namespace CreativeMinds.CompaniesHouseData.RestApi {
 
 	public class CompaniesHouseSearchEngine : ICompaniesHouseSearchEngine {
 		protected readonly String endpoint;

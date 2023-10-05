@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Text.Json.Serialization;
 
-namespace CreativeMinds.ComapniesHouseData.RestApi.Dtos {
+namespace CreativeMinds.CompaniesHouseData.RestApi.Dtos {
 
 	public class LocationEntity {
 		[JsonPropertyName("postal_code")]
