@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CreativeMinds.CompaniesHouseData.RestApi.Converters;
+using System;
 using System.Text.Json.Serialization;
 
 namespace CreativeMinds.CompaniesHouseData.RestApi.Dtos {
@@ -24,6 +25,7 @@ namespace CreativeMinds.CompaniesHouseData.RestApi.Dtos {
 		public String Type { get; set; }
 		[JsonPropertyName("date_of_creation")]
 		public DateTime? Creation { get; set; }
+		[JsonConverter(typeof(UnknownDateTimeJsonConverter))]        
 		[JsonPropertyName("date_of_cessation")]
 		public DateTime? Cessation { get; set; }
 		[JsonPropertyName("description_identifier")]

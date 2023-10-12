@@ -44,6 +44,9 @@ namespace CreativeMinds.CompaniesHouseData.RestApi {
 
 				HttpResponseMessage response = await client.SendAsync(request);
 
+				String u = await response.Content.ReadAsStringAsync();
+
+
 				return await response.Content.ReadFromJsonAsync<SearchResponse>();
 
 				//return new List<Object> {  };

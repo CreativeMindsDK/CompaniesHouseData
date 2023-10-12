@@ -1,4 +1,5 @@
 ﻿// See https://aka.ms/new-console-template for more information
+using CreativeMinds.CompaniesHouseData.RestApi.AppSettings;
 using Microsoft.Extensions.Configuration;
 
 namespace TestApp {
@@ -14,12 +15,21 @@ namespace TestApp {
 			IConfiguration config = builder.Build();
 			CancellationToken cancellationToken = new CancellationToken();
 
-			//CreativeMinds.CompaniesHouseData.RestApi.CompaniesHouseSearchEngine search = new CreativeMinds.CompaniesHouseData.RestApi.CompaniesHouseSearchEngine(config.GetSection("CompaniesHouseSearch"));
+			CreativeMinds.CompaniesHouseData.RestApi.CompaniesHouseSearchEngine search = new CreativeMinds.CompaniesHouseData.RestApi.CompaniesHouseSearchEngine(new uksettings { ApiKey = config["CompaniesHouseSearch:ApiKey"], BaseEndpoint = config["CompaniesHouseSearch:BaseEndpoint"] });
 
-			//var data = search.SearchForCompanyByNameAsync("JW Brands Limited", 1, cancellationToken).Result;
+		
+			var data = search.SearchForCompanyByNameAsync("News Group Newspapers Limited", 1, cancellationToken).Result;
+
+			data = search.SearchForCompanyByNameAsync("JW Brands Limited", 1, cancellationToken).Result;
 
 			String temp = "";
 
 		}
+	}
+
+
+	internal class uksettings : ICompaniesHouseSettings {
+		public String ApiKey { get; set; }
+		public String BaseEndpoint { get; set; }
 	}
 }
