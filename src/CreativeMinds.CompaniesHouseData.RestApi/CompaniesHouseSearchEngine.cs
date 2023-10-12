@@ -6,7 +6,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using System.Web;
 using System.Net.Http.Json;
-using Microsoft.Extensions.Configuration;
+using CreativeMinds.CompaniesHouseData.RestApi.AppSettings;
 
 namespace CreativeMinds.CompaniesHouseData.RestApi {
 
@@ -14,12 +14,15 @@ namespace CreativeMinds.CompaniesHouseData.RestApi {
 		protected readonly String endpoint;
 		protected readonly String apiKey;
 
-		public CompaniesHouseSearchEngine(IConfigurationSection settings) {
-			this.endpoint = settings["BaseEndpoint"];
-			this.apiKey = settings["ApiKey"];
-		}
+		//public CompaniesHouseSearchEngine(IConfigurationSection settings) {
+		//	this.endpoint = settings["BaseEndpoint"];
+		//	this.apiKey = settings["ApiKey"];
+		//}
 
-		//public CompaniesHouseSearchEngine(ICompaniesHouseSettings settings) {		}
+		public CompaniesHouseSearchEngine(ICompaniesHouseSettings settings) {
+			this.endpoint = settings.BaseEndpoint;
+			this.apiKey = settings.ApiKey;
+		}
 
 		public async Task<SearchResponse> SearchForCompanyByNameAsync(String query, Int32 maxHits, CancellationToken cancellationToken) {
 			HttpClient client = new HttpClient();

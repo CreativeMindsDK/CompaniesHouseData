@@ -14,9 +14,9 @@ namespace TestApp {
 			IConfiguration config = builder.Build();
 			CancellationToken cancellationToken = new CancellationToken();
 
-			CreativeMinds.CompaniesHouseData.RestApi.CompaniesHouseSearchEngine search = new CreativeMinds.CompaniesHouseData.RestApi.CompaniesHouseSearchEngine(config.GetSection("CompaniesHouseSearch"));
+			//CreativeMinds.CompaniesHouseData.RestApi.CompaniesHouseSearchEngine search = new CreativeMinds.CompaniesHouseData.RestApi.CompaniesHouseSearchEngine(config.GetSection("CompaniesHouseSearch"));
 
-			var data = search.SearchForCompanyByNameAsync("JW Brands Limited", 1, cancellationToken).Result;
+			//var data = search.SearchForCompanyByNameAsync("JW Brands Limited", 1, cancellationToken).Result;
 
 			String temp = "";
 
