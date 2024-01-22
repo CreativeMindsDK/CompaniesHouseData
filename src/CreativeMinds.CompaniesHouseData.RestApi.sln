@@ -5,7 +5,6 @@ VisualStudioVersion = 17.6.33829.357
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Build", "Build", "{D344A58D-79C3-4AFA-988A-1AAE79753D24}"
 	ProjectSection(SolutionItems) = preProject
-		..\appveyor.yml = ..\appveyor.yml
 		..\.github\workflows\Publish NuGet.yml = ..\.github\workflows\Publish NuGet.yml
 		..\.github\workflows\Publish Private uGet.yml = ..\.github\workflows\Publish Private uGet.yml
 	EndProjectSection
