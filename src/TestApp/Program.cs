@@ -1,10 +1,13 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using CreativeMinds.CompaniesHouseData.RestApi.AppSettings;
 using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.Options;
+using Moq;
+using System.Runtime.CompilerServices;
 
 namespace TestApp {
 
-	internal class Program {
+	public class Program {
 
 		static void Main(String[] args) {
 			var builder = new ConfigurationBuilder()
@@ -15,14 +18,20 @@ namespace TestApp {
 			IConfiguration config = builder.Build();
 			CancellationToken cancellationToken = new CancellationToken();
 
-			CreativeMinds.CompaniesHouseData.RestApi.CompaniesHouseSearchEngine search = new CreativeMinds.CompaniesHouseData.RestApi.CompaniesHouseSearchEngine(new uksettings { ApiKey = config["CompaniesHouseSearch:ApiKey"], BaseEndpoint = config["CompaniesHouseSearch:BaseEndpoint"] });
+			Mock<IHttpClientFactory> http = new Mock<IHttpClientFactory>();
+			http.Setup(k => k.CreateClient(It.IsAny<String>())).Returns(new HttpClient());
 
-		
-			var data = search.SearchForCompanyByNameAsync("News Group Newspapers Limited", 1, cancellationToken).Result;
+			CreativeMinds.CompaniesHouseData.RestApi.CompaniesHouseSearchEngine search = new CreativeMinds.CompaniesHouseData.RestApi.CompaniesHouseSearchEngine(new uksettings { ApiKey = config["CompaniesHouseSearch:ApiKey"], BaseEndpoint = config["CompaniesHouseSearch:BaseEndpoint"] }, http.Object);
 
-			data = search.SearchForCompanyByNameAsync("JW Brands Limited", 1, cancellationToken).Result;
+
+			//var data = search.SearchForCompanyByNameAsync("News Group Newspapers Limited", 1, cancellationToken).Result;
+
+			//data = search.SearchForCompanyByNameAsync("JW Brands Limited", 1, cancellationToken).Result;
+
+			var data = search.SearchForCompanyByIdAsync("124120", 4, cancellationToken).Result;
 
 			String temp = "";
+
 
 		}
 	}

@@ -7,5 +7,6 @@ namespace CreativeMinds.CompaniesHouseData.RestApi {
 
 	public interface ICompaniesHouseSearchEngine {
 		Task<SearchResponse> SearchForCompanyByNameAsync(String query, Int32 maxHits, CancellationToken cancellationToken);
+		Task<CompanyProfile> SearchForCompanyByIdAsync(String companyId, Int32 maxHits, CancellationToken cancellationToken);
 	}
 }
